@@ -1,0 +1,60 @@
+p{
+    margin: 0;
+}
+
+.HeaderCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderCard p{
+    margin-bottom: 0;
+}
+
+.HeaderCard .TrashIcon{
+    padding: 5px;
+
+}
+
+.HeaderCard .TrashIcon:hover{
+    background-color: #ecf0f1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.TitleMovie{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.ReviewsNumber{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.ReviewsNumber .ThumbsUp,
+.ReviewsNumber .ThumbsDown{
+    display: flex;
+    align-items: center;
+}
+
+.ReviewsNumber .ThumbsUp p,
+.ReviewsNumber .ThumbsDown p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.ReviewsNumber .ThumbsUp svg,
+.ReviewsNumber .ThumbsDown svg {
+    cursor: pointer;
+}
+
+.Progress {
+    background-color: rgba(211, 47, 47, 0.7) !important;
+}
+
+.Progress .MuiLinearProgress-barColorPrimary {
+    background-color: rgba(46, 125, 50, 0.8);
+}
